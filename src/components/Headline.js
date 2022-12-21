@@ -23,7 +23,7 @@ const Headline = () => {
                                    </p>
                                </div>
                                <div>
-                                   <button className="px-6 py-2 rounded bg-black hover:bg-blend-darken text-white rounded-3xl capitalize">More About me</button>
+                                   <button className="shadow-2xl bg-white :text-black outline  outline-2 outline-black px-6 py-2 hover:bg-black  hover:text-white capitalize">More About me</button>
                                </div>
                            </div>
 

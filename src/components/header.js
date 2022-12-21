@@ -31,7 +31,7 @@ const Header = () => {
                     </svg>
                 </div>
                 <div className="hidden lg:block">
-                    <button className="px-6 py-2 rounded bg-black hover:bg-blend-darken text-white ">Let's connect</button>
+                    <button className="shadow-2xl bg-white :text-black outline  outline-2 outline-black px-6 py-2 hover:bg-black  hover:text-white capitalize">Let's connect</button>
                 </div>
             </nav>
         </div>
