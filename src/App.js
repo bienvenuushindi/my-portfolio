@@ -8,13 +8,13 @@ import {HiPresentationChartBar, HiSpeakerphone} from "react-icons/hi";
 import {IoIosSend} from "react-icons/io";
 
 function App() {
-  const pageNaviagtionIcons = [<FaHome />,<FaUserAlt />,<MdWork />,<HiPresentationChartBar />, <HiSpeakerphone />, <IoIosSend />]
+  const pageNavigationIcons = [<FaHome />,<FaUserAlt />,<MdWork />,<HiPresentationChartBar />, <HiSpeakerphone />, <IoIosSend />]
   return (
     <div className="App">
         <header>
             <Header />
             <Headline />
-            <FloatingList customClasses="flex-col fixed top-1/3 right-0" icons={pageNaviagtionIcons} />
+            <FloatingList customClasses="flex-col fixed top-1/3 right-0" icons={pageNavigationIcons} />
         </header>
 
     </div>
