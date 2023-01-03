@@ -144,9 +144,63 @@ export const testimonials = [
 
 export const projects = [
     {
-        screenshot:'',
-        live:'',
-        github:''
+        screenshot: '',
+        live: 'https://bienvenuushindi.github.io/portfolio/',
+        github: 'https://github.com/bienvenuushindi/portfolio'
+    },
+    {
+        screenshot: '',
+        live: 'https://bienvenuushindi.github.io/materchange/',
+        github: 'https://github.com/bienvenuushindi/materchange'
+    },
+    {
+        screenshot: '',
+        live: 'https://bienvenuushindi.github.io/awesome-books-es6/',
+        github: 'https://github.com/bienvenuushindi/awesome-books-es6'
+    },
+    {
+        screenshot: '',
+        live: 'https://bienvenuushindi.github.io/leaderboard/',
+        github: 'https://github.com/bienvenuushindi/leaderboard'
+    }, {
+        screenshot: '',
+        live: 'https://bienvenuushindi.github.io/meals-app/',
+        github: 'https://github.com/Sevenpros/meals'
+    }, {
+        screenshot: '',
+        live: 'https://bienvenuushindi.github.io/react-todo-app/',
+        github: 'https://github.com/bienvenuushindi/react-todo-app'
+    }, {
+        screenshot: '',
+        live: 'https://spacetouristhub.netlify.app/',
+        github: 'https://github.com/bienvenuushindi/space-travelers-hub'
+    }, {
+        screenshot: '',
+        live: 'https://basicmaths.netlify.app/',
+        github: 'https://github.com/bienvenuushindi/math-magicians'
+    }, {
+        screenshot: '',
+        live: 'https://bienvenuushindi.github.io/book-store/',
+        github: 'https://github.com/bienvenuushindi/book-store'
+    }, {
+        screenshot: '',
+        live: 'https://gameofthrones-details.netlify.app/',
+        github: 'https://github.com/bienvenuushindi/gameofthrones-details'
+    }
+    , {
+        screenshot: '',
+        live: 'https://budgetapp.up.railway.app/',
+        github: 'https://github.com/bienvenuushindi/budget-app'
+    }
+    , {
+        screenshot: '',
+        live: 'https://gofreelancer.vercel.app/',
+        github: 'https://github.com/bienvenuushindi/booking-app'
+    }
+    , {
+        screenshot: '',
+        live: 'https://recipeapp.up.railway.app/',
+        github: 'https://github.com/bienvenuushindi/recipe-app'
     }
 ]
 
