@@ -7,7 +7,7 @@ const Portfolio = () => {
         <section id="projects" className="flex-col">
             <Title title="SOME of My Projects"/>
             <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-center gap-3 py-5 my-10">
-                {projects.map(item => <div key={item.name}  data-aos="fade-up" className="bg-secondary flex items-center shadow-lg border border-primary relative project-container">
+                {projects.map(item => <div key={item.name}  className="bg-secondary flex items-center shadow-lg border border-primary relative project-container">
                    <img src={item.screenshot} alt={item.name} className="h-72 w-full"/>
                     <div className="absolute top-0 w-full text-center text-white h-full bg-secondary flex flex-col items-center justify-around px-1 project-element">
                         <h3 className="text-primary font-extrabold text-2xl">{item.name}</h3>
