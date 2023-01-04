@@ -48,7 +48,7 @@ const Navigation = () => {
                     <div className="pb-32 xl:pb-10 w-full flex flex-col items-center justify-start space-x-2 text-primary">
                         <div
                             className="flex px-6 justify-start md:justify-end items-start  w-full md:items-center space-x-6 ">
-                            <SocialMedia customClasses="grid-rows-1  justify-center grid-flow-col w-full"/>
+                            <SocialMedia customClasses="grid-rows-1 text-2xl justify-center grid-flow-col w-full"/>
                         </div>
                     </div>
                 </div>

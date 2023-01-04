@@ -15,7 +15,7 @@ const About = () => {
                         <div className="lg:text-3xl text-2xl uppercase flex items-center ">Hi There <img src={handWaving} alt='hand waving' className="lg:w-fit lg:h-fit h-8 w-8" /></div>
                         <div className="mb-5">
                             <h1 className="uppercase lg:text-6xl text-3xl  mb-1">I'M <span className="font-extrabold">USHINDI</span></h1>
-                            <h5 className="text-primary font-bold bg-secondary w-fit p-1 rounded">Software developer / Full-stack developer</h5>
+                            <h5 className="text-tertiary font-extrabold bg-secondary w-fit p-1 rounded">Software developer / Full-stack developer</h5>
                         </div>
                         <div className="lg:text-2xl" style={{fontSize: '1.2rem'}}>
                             <p> I'm a Full-stack web developer with  3+ years of experience. I can help you build a product , feature or website.
@@ -28,13 +28,6 @@ const About = () => {
                     <ul className="text-white text-center h-full  w-full grid  lg:grid-cols-2 bg-secondary ">
                         {data}
                     </ul>
-                    {/*<div className="lg:w-3/12 grid items-start lg:justify-items-center">*/}
-                    {/*    <div>*/}
-                    {/*        <h3 className="lg:text-4xl text-2xl text-gray font-bold text-left">Let's connect</h3>*/}
-                    {/*        <SocialMedia />*/}
-                    {/*    </div>*/}
-                    {/*    <div></div>*/}
-                    {/*</div>*/}
                 </div>
             </div>
         </section>

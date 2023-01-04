@@ -17,9 +17,9 @@ const TestimonialCard = (props) => {
                     <div className="mb-1">
                         <div className="text-primary text-2xl font-bold">{item.name}</div>
                         <div className="flex gap-2">
-                            <div className="font-bold"><small>{item.position}</small></div>
+                            <div className="font-bold text-tertiary"><small>{item.position}</small></div>
                             <div className="flex items-baseline"><span
-                                className="text-primary "><MdLocationPin className="bounce"/></span>{item.location}</div>
+                                className="text-tertiary "><MdLocationPin className="bounce"/></span>{item.location}</div>
                         </div>
                     </div>
                     <div className="text-white">{limitCharacters(item.comment,600)}</div>
@@ -27,7 +27,7 @@ const TestimonialCard = (props) => {
             </div>
             <div className="flex justify-between items-baseline mt-1">
                 <div className="flex">{[1, 2, 3, 4, 5].map((item) => <span key={item}
-                                                                           className="text-primary"><AiFillStar/></span>)}</div>
+                                                                           className="text-tertiary"><AiFillStar/></span>)}</div>
                 <div className="font-semibold"><small>{item.date}</small></div>
             </div>
         </div>

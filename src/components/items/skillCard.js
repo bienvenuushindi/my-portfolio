@@ -2,7 +2,7 @@ import {TiTick} from "react-icons/ti";
 
 const SkillCard = (props) => {
     const {title, items, name} = props
-    const list = items.map((item, index) => <li key={`${name}-item-${index}`} className="flex items-baseline"><span className="text-primary"><TiTick /></span>{item}</li>)
+    const list = items.map((item, index) => <li key={`${name}-item-${index}`} className="flex items-baseline"><span className="text-tertiary"><TiTick /></span>{item}</li>)
     return (
         <li className="border-b-dotted border-l-dotted">
             <div className="card flex ">
