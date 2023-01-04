@@ -301,7 +301,7 @@ export const projects = [
             'ruby', 'rails',
         ],
         description:'This is the documentation for GoFreelancer API which enables  a user to book a freelancer, cancel a booking, add and delete a freelancer.',
-        live: 'gofreelancer.up.railway.app/api-docs',
+        live: 'https://gofreelancer.up.railway.app/api-docs',
         github: 'https://github.com/bienvenuushindi/gofreelancer-backend'
     }
 ]
