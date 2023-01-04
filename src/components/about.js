@@ -1,7 +1,7 @@
-import Title from "./title";
+// import Title from "./title";
 import skills from "../siteData";
 import SkillCard from "./items/skillCard";
-import SocialMedia from "./socialMedia";
+import handWaving from "../image/icons/wave-small.png";
 const About = () => {
 
     const data = Object.entries(skills).map((item) => {
@@ -9,36 +9,33 @@ const About = () => {
         return <SkillCard key={`skill-${id}}`} name={id} title={value.title} items={value.list} />
     })
     return (
-        <section className="lg:m-10 flex-col">
-            <Title title="About Me" />
-            <div className="h-fit">
-                <h2 className="capitalize mt-2 lg:text-3xl text-2xl">
-                    I'm
-                    <span className="font-extrabold mx-1">
-                        Ushindi Bienvenu,
-                    </span>
-                    <span className="font-light">
-                        Software developer / Full-stack developer
-                    </span>
-                </h2>
-                <p className="mt-2">
-                    Hi Friends! I'm a Full-Stack web developer with more than <span className={"font-semibold"}> 3 years of experience </span>. I help companies to build
-                    effective and optimized web solutions. My proficiency in JavaScript, React, Ruby on Rails and SQL have allowed me
-                    to bridge the gap between technical and non-technical audiences. If you have an application you are interested in developing, a feature that you need built or a
-                    project that needs coding. I’d love to help with it
-                </p>
-
-                <div className="lg:flex w-full h-full my-10 mx-auto bg-secondary pt-4 lg:p-4  text-white ">
-                    <ul className="text-white text-center h-full  lg:w-9/12 grid  lg:grid-cols-2 bg-secondary ">
+        <section id="about" className=" flex-col ">
+            <div className="h-fit  my-10 lg:mt-20">
+                <div className="h-full grid justify-items-start gap-1 items-center">
+                    <div className="space-y-5">
+                        <div className="lg:text-3xl text-2xl uppercase flex items-center ">Hi There <img src={handWaving} alt='hand waving' className="lg:w-fit lg:h-fit h-8 w-8" /></div>
+                        <div className="mb-5">
+                            <h1 className="uppercase lg:text-6xl text-3xl  mb-1">I'M <span className="font-extrabold">USHINDI</span></h1>
+                            <h5 className="text-primary font-bold bg-secondary w-fit p-1 rounded">Software developer / Full-stack developer</h5>
+                        </div>
+                        <div className="lg:text-2xl" style={{fontSize: '1.2rem'}}>
+                            <p> I'm a Full-stack web developer with  3+ years of experience. I can help you build a product , feature or website.
+                                Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className="lg:flex w-full h-full my-10 mx-auto bg-secondary pt-4 pl-2 lg:p-10 my-24 text-white rounded ">
+                    <ul className="text-white text-center h-full  w-full grid  lg:grid-cols-2 bg-secondary ">
                         {data}
                     </ul>
-                    <div className="lg:w-3/12 grid items-start lg:justify-items-center">
-                        <div>
-                            <h3 className="lg:text-4xl text-2xl text-gray font-bold text-left">Let's connect</h3>
-                            <SocialMedia />
-                        </div>
-                        <div></div>
-                    </div>
+                    {/*<div className="lg:w-3/12 grid items-start lg:justify-items-center">*/}
+                    {/*    <div>*/}
+                    {/*        <h3 className="lg:text-4xl text-2xl text-gray font-bold text-left">Let's connect</h3>*/}
+                    {/*        <SocialMedia />*/}
+                    {/*    </div>*/}
+                    {/*    <div></div>*/}
+                    {/*</div>*/}
                 </div>
             </div>
         </section>

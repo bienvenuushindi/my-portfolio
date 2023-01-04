@@ -3,9 +3,9 @@ import {testimonials} from "../siteData";
 import Slider from "./slide";
 const Testimonials = () => {
     return (
-        <section className="lg:m-10 flex-col">
+        <section id="testimonials" className=" flex-col">
             <Title title="Testimonials"/>
-            <div className="mt-5 w-full px-4 " >
+            <div className="my-10 w-full px-4 " >
                 <Slider testimonials={testimonials || []} />
             </div>
         </section>

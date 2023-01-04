@@ -5,11 +5,11 @@ import {GrMail} from "react-icons/gr";
 const Contact = () => {
 
     return (
-        <section className="lg:m-10 flex-col">
+        <section id="contact" className=" flex-col">
             <Title title="Contact"/>
-            <div>
+            <div className="my-10">
                 <div className="text-3xl my-5">Feel <span className="font-extrabold">free</span> to contact me!</div>
-                <p>
+                <p className="mb-10  mt-5 text-2xl">
                     If you have an application you are interested in developing, a feature that you need built or a
                     project that needs coding. I’d love to help with it
                 </p>

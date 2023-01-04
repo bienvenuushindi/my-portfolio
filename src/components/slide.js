@@ -19,22 +19,14 @@ function Slider({ testimonials }) {
           // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={10}
-      slidesPerView={2}
       navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: false, hide: true }}
       breakpoints={{
-        // when window width is >= 640px
-        360: {
-          width: 360,
+        310: {
+          width: 310,
           slidesPerView: 1,
         },
-        // when window width is >= 768px
-        // 768: {
-        //   width: 768,
-        //   slidesPerView: 2,
-        // },
-        // when window width is >= 1366px
           768: {
           width: 1100,
           slidesPerView: 2,
