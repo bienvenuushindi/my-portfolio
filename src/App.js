@@ -1,5 +1,4 @@
 import './App.css'
-import 'aos/dist/aos.css';
 import About from "./components/about";
 import Resume from "./components/resume";
 import Portfolio from "./components/portfolio";
