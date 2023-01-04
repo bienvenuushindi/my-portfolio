@@ -16,13 +16,13 @@ const Contact = () => {
                 <div>
                     <h3 className="lg:text-4xl text-2xl font-bold text-left">Let's connect</h3>
                     <div className="grid lg:grid-cols-2">
-                        <SocialMedia customClasses="grid-cols-2"/>
+                        <SocialMedia customClasses="grid-cols-2" showIconText={true}/>
                         <div>
                             <div className="flex items-center">
                            <span className="text-primary bg-black p-3 mt-1 mr-2 rounded-3xl hover:text-white">
                                 <GrMail/>
                             </span>
-                                <span className="font-bold">jeanbienvenusb@gmail.com</span>
+                                <a className="font-bold" href="mailto:jeanbienvenusb@gmail.com">Send mail</a>
                             </div>
                         </div>
                     </div>

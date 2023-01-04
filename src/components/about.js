@@ -1,4 +1,3 @@
-// import Title from "./title";
 import skills from "../siteData";
 import SkillCard from "./items/skillCard";
 import handWaving from "../image/icons/wave-small.png";

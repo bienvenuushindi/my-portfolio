@@ -32,8 +32,6 @@ function Slider({ testimonials }) {
           slidesPerView: 2,
         },
       }}
-      // onSwiper={(swiper) => console.log(swiper)}
-      // onSlideChange={() => console.log('slide change')}
     >
       {testimonials.map((item) => (
         <SwiperSlide key={item.name}>

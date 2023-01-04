@@ -1,9 +1,7 @@
 import React, {useState} from 'react';
-import {
-    FaFacebook, FaTwitter, FaLinkedin, FaWhatsapp,
-} from 'react-icons/fa';
 import '../index.css';
 import Image from "../image/usb-transparent.png";
+import SocialMedia from "./socialMedia";
 
 
 const Navigation = () => {
@@ -49,19 +47,8 @@ const Navigation = () => {
 
                     <div className="pb-32 xl:pb-10 w-full flex flex-col items-center justify-start space-x-2 text-primary">
                         <div
-                            className="flex px-6 justify-start md:justify-end items-start  w-full md:w-auto md:items-center space-x-6 ">
-                            <button type="button" className="  hover:text-gray-200 w-6">
-                                <FaTwitter size={24}/>
-                            </button>
-                            <button type="button" className=" hover:text-gray-200 w-6">
-                                <FaFacebook size={24}/>
-                            </button>
-                            <button type="button" className=" hover:text-gray-200 w-6">
-                                <FaLinkedin size={24}/>
-                            </button>
-                            <button type="button" className=" hover:text-gray-200 w-6">
-                                <FaWhatsapp size={24}/>
-                            </button>
+                            className="flex px-6 justify-start md:justify-end items-start  w-full md:items-center space-x-6 ">
+                            <SocialMedia customClasses="grid-rows-1 grid-flow-col w-full"/>
                         </div>
                     </div>
                 </div>

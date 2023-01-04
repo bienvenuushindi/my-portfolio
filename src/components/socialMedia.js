@@ -1,9 +1,8 @@
 import {accounts} from "../siteData";
-import {FaFacebook, FaGithub, FaLinkedin, FaMedium, FaTwitter} from "react-icons/fa";
+import {FaGithub, FaLinkedin, FaMedium, FaTwitter} from "react-icons/fa";
 
-function SocialMedia({customClasses=''}) {
+function SocialMedia({customClasses = '', showIconText=false}) {
     const icons = {
-        facebook: <FaFacebook/>,
         twitter: <FaTwitter/>,
         linkedin: <FaLinkedin/>,
         medium: <FaMedium/>,
@@ -11,7 +10,9 @@ function SocialMedia({customClasses=''}) {
     }
     return (
         <ul className={`mt-3 grid ${customClasses}`}>
-            {accounts.map(item=><li key={item.name} className="flex items-center font-bold"><span className="text-primary bg-secondary p-3 mt-1 mr-2 rounded-3xl hover:text-white">{icons[`${item.key}`]}</span> {item.name}</li>)}
+            {accounts.map(item => <li key={item.name} className="flex items-center font-bold"><a href={item.link} className="flex items-center"><span
+                className="text-primary bg-secondary p-3 mt-1 mr-2 rounded-3xl hover:text-white">{icons[`${item.key}`]}</span> {showIconText && item.name}
+            </a></li>)}
         </ul>
     )
 }
