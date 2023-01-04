@@ -12,7 +12,7 @@ body {
 }
 
 main {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .headline {
