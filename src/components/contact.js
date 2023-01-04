@@ -22,7 +22,7 @@ const Contact = () => {
                            <span className="text-primary bg-black p-3 mt-1 mr-2 rounded-3xl hover:text-white">
                                 <GrMail/>
                             </span>
-                                <a className="font-bold" href="mailto:jeanbienvenusb@gmail.com">Send mail</a>
+                                <a className="font-bold" href="mailto:jeanbienvenusb@gmail.com">jeanbienvenusb@gmail.com</a>
                             </div>
                         </div>
                     </div>
