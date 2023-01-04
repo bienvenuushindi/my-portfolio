@@ -1,3 +1,22 @@
+import Asim from './image/testimonial/asim-intro.png'
+import Ernest from './image/testimonial/ernest.jpeg'
+import Aleks from './image/testimonial/aleks.jpeg'
+import ApiDoc from './image/portfolio/api-docs.png'
+import AwesomeBook from './image/portfolio/awesomebook.png'
+import Bookstore from './image/portfolio/bookstore.png'
+import BudgetApp from './image/portfolio/budgetApp.png'
+import GameOfThrone from './image/portfolio/gameofthrones-screen.png'
+import GoFreelancer from './image/portfolio/gofreelancers.png'
+import KinEat from './image/portfolio/kin-eat.png'
+import LeaderBoard from './image/portfolio/leaderboard.png'
+import MaterChange from './image/portfolio/materchange-portf.png'
+import MathMagicians from './image/portfolio/math-magicians.png'
+import ReactTodo from './image/portfolio/react-todo.png'
+import RecipeApp from './image/portfolio/recipe-app.png'
+import SpaceHub from './image/portfolio/spacehub.png'
+import ToDo from './image/portfolio/todolist.png'
+import Portfolio from './image/portfolio/portfolio.png'
+
 const skills = {
     front: {
         title: 'Front-end',
@@ -46,7 +65,6 @@ export const education = [
         details: 'High School Diploma in Electrical Engineering',
     },
 ]
-
 export const experience = [
     {
         year: 'Oct 2022 - Present',
@@ -104,7 +122,7 @@ export const testimonials = [
     {
         name: "Asim Mehmood Khan",
         position: 'Software Developer',
-        image: 'https://asim-khan.netlify.app/assets/img/asim-intro.png',
+        image: Asim,
         comment: 'Besides being a thorough gentleman and a very helpful partner. Coding and collaborating with ' +
             'him is always a treat, watching him code and explain the details of how the applications operate and ' +
             'function is insightful and very useful. His approach to handling and solving algorithms and data structures' +
@@ -118,7 +136,7 @@ export const testimonials = [
     },
     {
         name: "Ernest Anyewe Adonu",
-        image: 'https://avatars.githubusercontent.com/u/92553079?v=4',
+        image: Ernest,
         position: 'Full-Stack Developer',
         comment: 'Ushindi is one person I know who understands the tools he uses and can manipulate them ' +
             'to achieve anything he wants. He is down to earth and a team player. He can communicate his taught process for a non-technical person' +
@@ -130,7 +148,7 @@ export const testimonials = [
     {
         name: "Aleksandra Ujvari",
         position: 'Full-Stack Developer',
-        image: 'https://avatars.githubusercontent.com/u/88398101?v=4',
+        image: Aleks,
         comment: 'Ushindi is an exceptional person, always ready to help. He is an excellent developer, ' +
             'he knows how to find a solution for every problem. I was convinced of this when we worked ' +
             'together on projects in Microverse. He has a high level of knowledge of JavaScript and knows ' +
@@ -144,63 +162,147 @@ export const testimonials = [
 
 export const projects = [
     {
-        screenshot: '',
-        live: 'https://bienvenuushindi.github.io/portfolio/',
-        github: 'https://github.com/bienvenuushindi/portfolio'
+        screenshot: GoFreelancer,
+        name: 'GoFreelancer',
+        techStack:[
+         'html', 'css','javascript','react','redux', 'tailwind',
+        ],
+        description:'GoFreelancer enables a user to book a freelancer, cancel a booking, add and delete a freelancer.',
+        live: 'https://gofreelancer.vercel.app/',
+        github: 'https://github.com/bienvenuushindi/booking-app'
     },
     {
-        screenshot: '',
+        screenshot: MaterChange,
+        name: 'MaterChange',
+        techStack:[
+            'html', 'css','javascript'
+        ],
+        description: 'This is a HTML,CSS, JavaScript capstone project. I designed a website for an organisation with the aim of raising a generation of Change Makers that believe in the transforming power of an idea',
         live: 'https://bienvenuushindi.github.io/materchange/',
         github: 'https://github.com/bienvenuushindi/materchange'
     },
     {
-        screenshot: '',
+        screenshot: KinEat,
+        name: 'KinEat',
+        techStack:[
+            'html', 'css','javascript', 'bootstrap'
+        ],
+        description: 'In this project, I use an API of various food types with pictures and descriptions to show them on the page of my application. The user interface will allow users to browse through various food types and list specific category\'s food.Additionally,a user may like or comment on a certain meal.',
+        live: 'https://bienvenuushindi.github.io/meals-app/',
+        github: 'https://github.com/bienvenuushindi/meals-app'
+    },
+    {
+        screenshot: AwesomeBook,
+        name: 'AwesomeBook',
+        techStack:[
+            'html', 'css','javascript', 'bootstrap',
+        ],
+        description: 'In this project, I designed an Awesome books app. The goal is to make use of ES6 syntax to demonstrate Single Page Application and code modularity.A user can add and remove a book.',
         live: 'https://bienvenuushindi.github.io/awesome-books-es6/',
         github: 'https://github.com/bienvenuushindi/awesome-books-es6'
     },
     {
-        screenshot: '',
+        screenshot: Portfolio,
+        name: 'Portfolio',
+        techStack:[
+            'html', 'css','javascript',
+        ],
+        description: 'I precisely replicate this Microverse portfolio templates to demonstrate my skills in HTML, CSS amd Javascript ',
+        live: 'https://bienvenuushindi.github.io/portfolio/',
+        github: 'https://github.com/bienvenuushindi/portfolio'
+    },
+    {
+        screenshot: LeaderBoard,
+        name: 'LeaderBoard',
+        techStack:[
+            'html', 'css','javascript'
+        ],
+        description: 'This app displays scores submitted by different players. It also allows any user to submit his score.',
         live: 'https://bienvenuushindi.github.io/leaderboard/',
         github: 'https://github.com/bienvenuushindi/leaderboard'
     }, {
-        screenshot: '',
-        live: 'https://bienvenuushindi.github.io/meals-app/',
-        github: 'https://github.com/Sevenpros/meals'
-    }, {
-        screenshot: '',
+        screenshot: ReactTodo,
+        name: 'ReactTodo',
+        techStack:[
+            'html', 'css','javascript','react', 'bootstrap'
+        ],
+        description: 'This app is very comprehensive, and covers all main concepts about React, from the very basics to some intermediate topics',
         live: 'https://bienvenuushindi.github.io/react-todo-app/',
         github: 'https://github.com/bienvenuushindi/react-todo-app'
     }, {
-        screenshot: '',
+        screenshot: SpaceHub,
+        name: 'SpaceHub',
+        techStack:[
+            'html', 'css','javascript','react','redux', 'bootstrap'
+        ],
+        description: 'Make use of REACT and Redux to make calls to the SpaceX API to provide users with update information about space exploration. It features a user-friendly interface, allowing users to easily view data on SpaceX missions, rockets and satellites.',
         live: 'https://spacetouristhub.netlify.app/',
         github: 'https://github.com/bienvenuushindi/space-travelers-hub'
     }, {
-        screenshot: '',
+        screenshot: MathMagicians,
+        name: 'MathMagicians',
+        techStack:[
+            'html', 'css','javascript','react', 'bootstrap'
+        ],
+        description: 'It is Single Page App (SPA), built with React, that allows users to Make simple calculations and read a random math-related quote.',
         live: 'https://basicmaths.netlify.app/',
         github: 'https://github.com/bienvenuushindi/math-magicians'
     }, {
-        screenshot: '',
+        screenshot: Bookstore,
+        name: 'Bookstore',
+        techStack:[
+            'html', 'css','javascript','react','redux', 'bootstrap'
+        ],
+        description: 'A react app that displays a list of books, adds a book, removes a selected book.',
         live: 'https://bienvenuushindi.github.io/book-store/',
         github: 'https://github.com/bienvenuushindi/book-store'
     }, {
-        screenshot: '',
+        screenshot: GameOfThrone,
+        name: 'GameOfThrone Houses',
+        techStack:[
+            'html', 'css','javascript','react','redux', 'bootstrap'
+        ],
+        description: 'The Game of thrones houses and characters App is a React, Redux application based on a free API to retrieve some quotes of Game of Thrones movies!',
         live: 'https://gameofthrones-details.netlify.app/',
         github: 'https://github.com/bienvenuushindi/gameofthrones-details'
     }
     , {
-        screenshot: '',
+        screenshot: BudgetApp,
+        name: 'BudgetApp',
+        techStack:[
+            'html', 'css','javascript','react','redux', 'bootstrap'
+        ],
+        description: 'A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
         live: 'https://budgetapp.up.railway.app/',
         github: 'https://github.com/bienvenuushindi/budget-app'
     }
     , {
-        screenshot: '',
-        live: 'https://gofreelancer.vercel.app/',
-        github: 'https://github.com/bienvenuushindi/booking-app'
-    }
-    , {
-        screenshot: '',
+        screenshot: RecipeApp,
+        name: 'RecipeApp',
+        techStack:[
+            'html', 'css','javascript','ruby', 'rails', 'tailwind', 'bootstrap'
+        ],
+        description: 'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.',
         live: 'https://recipeapp.up.railway.app/',
         github: 'https://github.com/bienvenuushindi/recipe-app'
+    }, {
+        screenshot: ToDo,
+        name: 'ToDo',
+        techStack:[
+            'html', 'css','javascript',
+        ],
+        description: 'What is a ToDo List? The definition is a simple one. It\'s a list of tasks you need to complete or things that you want to do',
+        live: 'https://bienvenuushindi.github.io/to-do-list',
+        github: 'https://github.com/bienvenuushindi/to-do-list'
+    }, {
+        screenshot: ApiDoc,
+        name: 'Go Freelancers Api-Doc',
+        techStack:[
+            'ruby', 'rails',
+        ],
+        description:'This is the documentation for GoFreelancer API which enables  a user to book a freelancer, cancel a booking, add and delete a freelancer.',
+        live: 'gofreelancer.up.railway.app/api-docs',
+        github: 'https://github.com/bienvenuushindi/gofreelancer-backend'
     }
 ]
 
