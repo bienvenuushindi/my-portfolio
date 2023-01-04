@@ -6,13 +6,8 @@ import Portfolio from "./components/portfolio";
 import Testimonials from "./components/testimonials";
 import Contact from "./components/contact";
 import Navigation from "./components/navigation";
-import {useEffect} from "react";
-import AOS from 'aos'
 
 function App() {
-    useEffect(()=>{
-        AOS.init();
-    },[])
     return (
         <>
             <aside>

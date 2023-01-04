@@ -10,7 +10,7 @@ const About = () => {
     return (
         <section id="about" className=" flex-col ">
             <div className="h-fit  my-10 lg:mt-20">
-                <div className="h-full grid justify-items-start gap-1 items-center" data-aos="zoom-in-up" >
+                <div className="h-full grid justify-items-start gap-1 items-center" >
                     <div className="space-y-5">
                         <div className="lg:text-3xl text-2xl uppercase flex items-center ">Hi There <img src={handWaving} alt='hand waving' className="lg:w-fit lg:h-fit h-8 w-8" /></div>
                         <div className="mb-5">
@@ -24,7 +24,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className="lg:flex w-full h-full my-10 mx-auto bg-secondary pt-4 pl-2 lg:p-10 my-24 text-white rounded " data-aos="zoom-in-up">
+                <div className="lg:flex w-full h-full my-10 mx-auto bg-secondary pt-4 pl-2 lg:p-10 my-24 text-white rounded ">
                     <ul className="text-white text-center h-full  w-full grid  lg:grid-cols-2 bg-secondary ">
                         {data}
                     </ul>
