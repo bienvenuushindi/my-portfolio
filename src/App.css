@@ -1,0 +1,144 @@
+* {
+    font-family: Lato, serif;
+}
+
+:root {
+    --swiper-navigation-color: #f8b831;
+}
+
+body {
+    background: #fff;
+    overflow-x: hidden;
+}
+
+main {
+    overflow-x: hidden;
+}
+
+.headline {
+    background-image: url("./image/bg-blue.png");
+    background-size: cover;
+}
+
+.floating-navigation {
+    border-radius: 5rem;
+    padding: .2rem .2rem;
+    margin: .5rem;
+    z-index: 3;
+}
+.custom-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+.floating-navigation > li {
+    border-radius: 4rem;
+    padding: .2rem;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    margin: .5rem 0;
+}
+
+@media screen and (max-width: 767px) {
+    .testimonial-image{
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        border-radius: 50px;
+    }
+}
+.testimonial-image{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 50px;
+}
+@media screen and (min-width: 1024px) {
+    .floating-navigation {
+        padding: .2rem .2rem;
+        margin: 2rem;
+        border-radius: 5rem;
+    }
+
+    .floating-navigation > li {
+        border-radius: 4rem;
+        padding: .5rem;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        margin: .5rem 0;
+    }
+}
+
+
+
+.navigation > li:hover {
+    color: #fff;
+}
+
+.h-72vh {
+    height: 72vh;
+}
+
+.border-l-dotted {
+    /*border-left: 1px dotted #fff;*/
+}
+
+.border-b-dotted {
+    /*border-bottom: 1px dotted #fff;*/
+}
+
+.border-b-dotted-black {
+    border-bottom: 1px dotted #000;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .bounce {
+        animation: app-bounce infinite 3s linear;
+    }
+}
+
+@keyframes app-bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-5px);}
+    60% {transform: translateY(-2px);}
+}
+@-webkit-keyframes app-bounce {
+    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+    40% {-webkit-transform:  translateY(-5px);}
+    60% {-webkit-transform: translateY(-2px);}
+}
+
+.project-container {
+    overflow: hidden;
+}
+
+.project-element {
+    opacity: 1;
+    transition: all ease-in-out 0.5s;
+    -webkit-transition: all ease-in-out .5s;
+    -moz-transition: all ease-in-out .5s;
+}
+
+.project-element{
+    top: 300px;
+    left: 300px;
+}
+
+a:hover, button:hover, .project-container:hover {
+    cursor: pointer;
+}
+
+.project-container:hover .project-element{
+    opacity: 1;
+    top: 0;
+    left: 0;
+}
+
+.plus-icon {
+   opacity: 1;
+}
+.project-container:hover .plus-icon{
+    opacity: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .bip {
+        animation: app-bounce infinite 1s linear;
+    }
+}

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* stylelint-disable  -- @layer*/
+@layer components {
+    .nav__link {
+        @apply flex items-center mt-1 w-full py-2 pl-6 space-x-6 text-gray-800 rounded
+        focus:outline-none  justify-start
+        hover:bg-clrPrime hover:text-white xl:text-lg;
+    }
+    .side__bar {
+        @apply fixed top-0 z-10 w-full h-full bg-secondary flex flex-col justify-between items-start  border shadow
+        xl:w-64 xl:mt-0 xl:translate-x-0  xl:rounded
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
