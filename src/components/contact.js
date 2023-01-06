@@ -19,14 +19,6 @@ const Contact = () => {
                         <h3 className="lg:text-4xl text-2xl font-bold text-left">Let's connect</h3>
                         <div className="grid lg:grid-cols-2">
                             <SocialMedia customClasses="grid-cols-2" showIconText={true}/>
-                            <div>
-                                <div className="flex items-center">
-                           <span className="text-tertiary bg-black p-3 mt-1 mr-2 rounded-3xl hover:text-white">
-                                <GrMail/>
-                            </span>
-                                    <a className="font-bold" href="mailto:jeanbienvenusb@gmail.com">jeanbienvenusb@gmail.com</a>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>

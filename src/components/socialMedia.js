@@ -1,5 +1,6 @@
 import {accounts} from "../siteData";
 import {FaGithub, FaLinkedin, FaMedium, FaTwitter} from "react-icons/fa";
+import {GrMail} from "react-icons/gr";
 
 function SocialMedia({customClasses = '', showIconText=false}) {
     const icons = {
@@ -7,6 +8,7 @@ function SocialMedia({customClasses = '', showIconText=false}) {
         linkedin: <FaLinkedin/>,
         medium: <FaMedium/>,
         github: <FaGithub/>,
+        gmail: <GrMail/>,
     }
     return (
         <ul className={`mt-3 grid ${customClasses}`}>

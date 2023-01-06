@@ -327,6 +327,11 @@ export const accounts = [
         link: 'https://medium.com/@bienvenuushindi',
         key: 'medium'
     },
+    {
+        name: 'jeanbienvenusb@gmail.com',
+        link: 'mailto:jeanbienvenusb@gmail.com',
+        key: 'gmail'
+    },
 
 
 ]
