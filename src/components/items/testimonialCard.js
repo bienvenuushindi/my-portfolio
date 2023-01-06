@@ -8,7 +8,7 @@ const TestimonialCard = (props) => {
       return  str
     }
     return (
-        <div className=" p-1 max-h-fit text-white rounded shadow shadow-2xl my-14 shadow-gray-light custom-shadow bg-secondary">
+        <div className=" p-1 max-h-fit text-white rounded shadow shadow-2xl my-14 shadow-gray-light custom-shadow bg-secondary ">
             <div className="flex flex-col">
                 <div className="image grid items-start lg:mx-4">
                     <img src={item.image} alt={item.name} className="rounded testimonial-image"/>

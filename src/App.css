@@ -1,9 +1,14 @@
 * {
     font-family: Lato, serif;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
-    --swiper-navigation-color: #f8b831;
+    --primary: #b8b9be;
+    --secondary: #2e3444;
+    --tertiary: #f8b831;
+    --swiper-navigation-color: var(--tertiary);
 }
 
 body {
@@ -26,9 +31,11 @@ main {
     margin: .5rem;
     z-index: 3;
 }
+
 .custom-shadow {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
 }
+
 .floating-navigation > li {
     border-radius: 4rem;
     padding: .2rem;
@@ -37,19 +44,21 @@ main {
 }
 
 @media screen and (max-width: 767px) {
-    .testimonial-image{
+    .testimonial-image {
         width: 100px;
         height: 100px;
         margin: auto;
         border-radius: 50px;
     }
 }
-.testimonial-image{
+
+.testimonial-image {
     width: 100px;
     height: 100px;
     margin: auto;
     border-radius: 50px;
 }
+
 @media screen and (min-width: 1024px) {
     .floating-navigation {
         padding: .2rem .2rem;
@@ -64,7 +73,6 @@ main {
         margin: .5rem 0;
     }
 }
-
 
 
 .navigation > li:hover {
@@ -94,14 +102,27 @@ main {
 }
 
 @keyframes app-bounce {
-    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-    40% {transform: translateY(-5px);}
-    60% {transform: translateY(-2px);}
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-5px);
+    }
+    60% {
+        transform: translateY(-2px);
+    }
 }
+
 @-webkit-keyframes app-bounce {
-    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
-    40% {-webkit-transform:  translateY(-5px);}
-    60% {-webkit-transform: translateY(-2px);}
+    0%, 20%, 50%, 80%, 100% {
+        -webkit-transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-5px);
+    }
+    60% {
+        -webkit-transform: translateY(-2px);
+    }
 }
 
 .project-container {
@@ -115,7 +136,7 @@ main {
     -moz-transition: all ease-in-out .5s;
 }
 
-.project-element{
+.project-element {
     top: 300px;
     left: 300px;
 }
@@ -124,16 +145,17 @@ a:hover, button:hover, .project-container:hover {
     cursor: pointer;
 }
 
-.project-container:hover .project-element{
+.project-container:hover .project-element {
     opacity: 1;
     top: 0;
     left: 0;
 }
 
 .plus-icon {
-   opacity: 1;
+    opacity: 1;
 }
-.project-container:hover .plus-icon{
+
+.project-container:hover .plus-icon {
     opacity: 0;
 }
 
@@ -141,4 +163,73 @@ a:hover, button:hover, .project-container:hover {
     .bip {
         animation: app-bounce infinite 1s linear;
     }
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    stroke: var(--tertiary);
+    fill: none;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards
+}
+
+.checkmark {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 8;
+    stroke: var(--secondary);
+    stroke-miterlimit: 10;
+    margin: 10% auto;
+    box-shadow: inset 0px 0px 0px var(--tertiary);;
+    animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both
+}
+
+.checkmark__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards
+}
+
+@keyframes stroke {
+    100% {
+        stroke-dashoffset: 0
+    }
+}
+
+@keyframes scale {
+    0%, 100% {
+        transform: none
+    }
+    50% {
+        transform: scale3d(1.1, 1.1, 1)
+    }
+}
+
+@keyframes fill {
+    100% {
+        box-shadow: inset 0px 0px 0px 30px var(--tertiary);
+    }
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
 }

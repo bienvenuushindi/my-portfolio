@@ -7,7 +7,7 @@ const Contact = () => {
     return (
         <section id="contact" className=" flex-col">
             <Title title="Contact"/>
-            <div className="my-10">
+            <div className="my-10 reveal">
                 <div className="text-3xl my-5">Feel <span className="font-extrabold">free</span> to contact me!</div>
                 <p className="mb-10  mt-5 text-2xl">
                     If you have an application you are interested in developing, a feature that you need built or a

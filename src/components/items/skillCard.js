@@ -1,8 +1,14 @@
-import {TiTick} from "react-icons/ti";
-
 const SkillCard = (props) => {
     const {title, items, name} = props
-    const list = items.map((item, index) => <li key={`${name}-item-${index}`} className="flex items-baseline"><span className="text-tertiary"><TiTick /></span>{item}</li>)
+    const list = items.map((item, index) => <li key={`${name}-item-${index}`} className="flex items-baseline">
+        <div className="wrapper mr-1">
+            <svg className="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                <circle className="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                <path className="checkmark__check font-bold" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+            </svg>
+        </div>
+        {item}
+    </li>)
     return (
         <li className="border-b-dotted border-l-dotted">
             <div className="card flex ">
