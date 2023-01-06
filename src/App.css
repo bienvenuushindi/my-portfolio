@@ -233,3 +233,24 @@ a:hover, button:hover, .project-container:hover {
     transform: translateY(0);
     opacity: 1;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 1rem;
+}
+
+input,
+textarea {
+    font: inherit;
+    border-radius: 0.5rem;
+    padding: 10px;
+    outline: none;
+    border: 1px solid var(--secondary);
+    width: 100%;
+}
+
+textarea {
+    height: 9rem;
+}
