@@ -1,4 +1,4 @@
-# Book Store
+# Portfolio
 A portfolio website that showcases my projects and skills
 ## Built With
 - HTML, CSS, JavaScript, React, Redux
