@@ -109,7 +109,7 @@ export const experience = [
     },
     {
         year: 'Jun 2017 - Sep 2018',
-        position: 'Project Manager & Frontend Web Developer',
+        position: 'Frontend Web Developer',
         company: 'Tresud a.s.b.l',
         location: 'Uganda',
         details: '- Successfully coordinated the development team to build and deliver the website on time.\n' +
