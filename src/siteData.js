@@ -20,7 +20,7 @@ import Portfolio from './image/portfolio/portfolio.png'
 const skills = {
     front: {
         title: 'Front-end',
-        list: ['JavaScript', 'React', 'Redux', 'JQuery', 'HTML5', 'CSS3', 'Bootstrap', 'Tailwindcss'],
+        list: ['JavaScript', 'React', 'Redux', 'JQuery', 'Typescript' 'HTML5', 'CSS3', 'Bootstrap', 'Tailwindcss'],
     },
     back: {
         title: 'Back-end',
