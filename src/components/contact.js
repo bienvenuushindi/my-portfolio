@@ -1,6 +1,5 @@
 import Title from "./title";
 import SocialMedia from "./socialMedia";
-import {GrMail} from "react-icons/gr";
 import ContactForm from "./contact-form";
 
 const Contact = () => {

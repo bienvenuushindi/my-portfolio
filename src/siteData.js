@@ -170,6 +170,34 @@ export const projects = [
         description:'GoFreelancer enables a user to book a freelancer, cancel a booking, add and delete a freelancer.',
         live: 'https://gofreelancer.vercel.app/',
         github: 'https://github.com/bienvenuushindi/booking-app'
+    }, {
+        screenshot: ApiDoc,
+        name: 'Go Freelancers Api-Doc',
+        techStack:[
+            'ruby', 'rails',
+        ],
+        description:'This is the documentation for GoFreelancer API which enables  a user to book a freelancer, cancel a booking, add and delete a freelancer.',
+        live: 'https://gofreelancer.up.railway.app/api-docs',
+        github: 'https://github.com/bienvenuushindi/gofreelancer-backend'
+    }, {
+        screenshot: BudgetApp,
+        name: 'BudgetApp',
+        techStack:[
+            'html', 'css','javascript','ruby','rails', 'bootstrap'
+        ],
+        description: 'A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+        live: 'https://budgetapp.up.railway.app/',
+        github: 'https://github.com/bienvenuushindi/budget-app'
+    }
+    , {
+        screenshot: RecipeApp,
+        name: 'RecipeApp',
+        techStack:[
+            'html', 'css','javascript','ruby', 'rails', 'tailwind', 'bootstrap'
+        ],
+        description: 'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.',
+        live: 'https://recipeapp.up.railway.app/',
+        github: 'https://github.com/bienvenuushindi/recipe-app'
     },
     {
         screenshot: MaterChange,
@@ -267,25 +295,6 @@ export const projects = [
         github: 'https://github.com/bienvenuushindi/gameofthrones-details'
     }
     , {
-        screenshot: BudgetApp,
-        name: 'BudgetApp',
-        techStack:[
-            'html', 'css','javascript','react','redux', 'bootstrap'
-        ],
-        description: 'A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
-        live: 'https://budgetapp.up.railway.app/',
-        github: 'https://github.com/bienvenuushindi/budget-app'
-    }
-    , {
-        screenshot: RecipeApp,
-        name: 'RecipeApp',
-        techStack:[
-            'html', 'css','javascript','ruby', 'rails', 'tailwind', 'bootstrap'
-        ],
-        description: 'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.',
-        live: 'https://recipeapp.up.railway.app/',
-        github: 'https://github.com/bienvenuushindi/recipe-app'
-    }, {
         screenshot: ToDo,
         name: 'ToDo',
         techStack:[
@@ -294,16 +303,7 @@ export const projects = [
         description: 'What is a ToDo List? The definition is a simple one. It\'s a list of tasks you need to complete or things that you want to do',
         live: 'https://bienvenuushindi.github.io/to-do-list',
         github: 'https://github.com/bienvenuushindi/to-do-list'
-    }, {
-        screenshot: ApiDoc,
-        name: 'Go Freelancers Api-Doc',
-        techStack:[
-            'ruby', 'rails',
-        ],
-        description:'This is the documentation for GoFreelancer API which enables  a user to book a freelancer, cancel a booking, add and delete a freelancer.',
-        live: 'https://gofreelancer.up.railway.app/api-docs',
-        github: 'https://github.com/bienvenuushindi/gofreelancer-backend'
-    }
+    },
 ]
 
 export const accounts = [
