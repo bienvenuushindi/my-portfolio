@@ -251,7 +251,7 @@ export const projects = [
         techStack: [
             'html', 'css', 'javascript', 'react', 'redux', 'bootstrap'
         ],
-        description: 'Make use of REACT and Redux to make calls to the SpaceX API to provide users with update information about space exploration. It features a user-friendly interface, allowing users to easily view data on SpaceX missions, rockets and satellites.',
+        description: 'Make use of REACT and Redux to make calls to the SpaceX API to provide users with updated information about space exploration. It features a user-friendly interface, allowing users to easily view data on SpaceX missions, rockets and satellites.',
         live: 'https://spacetouristhub.netlify.app/',
         github: 'https://github.com/bienvenuushindi/space-travelers-hub'
     }, {
