@@ -33,7 +33,7 @@ function App() {
                 <Navigation />
             </aside>
             <main className="xl:ml-64 overflow-hidden">
-                <div className="lg:w-10/12 w-11/12 mx-auto">
+                <div className="lg:w-11/12 w-11/12 mx-auto">
                     <About />
                     <Portfolio/>
                     <Testimonials/>
