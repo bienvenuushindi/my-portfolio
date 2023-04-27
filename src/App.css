@@ -142,7 +142,7 @@ main {
     left: 300px;
 }
 
-a:hover, button:hover, .project-container:hover {
+a:hover, button:hover {
     cursor: pointer;
 }
 
