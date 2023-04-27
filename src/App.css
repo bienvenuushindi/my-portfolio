@@ -5,15 +5,16 @@
 }
 
 :root {
-    --primary: #b8b9be;
-    --secondary: #2e3444;
+    --primary: #111827;
+    --secondary: #374151;
     --tertiary: #f8b831;
     --swiper-navigation-color: var(--tertiary);
 }
 
 body {
-    background: #fff;
+    background: var(--primary);
     overflow-x: hidden;
+    color: #ffffff;
 }
 
 main {
@@ -150,6 +151,40 @@ a:hover, button:hover, .project-container:hover {
     top: 0;
     left: 0;
 }
+.animate-border{
+    position: relative;
+}
+.animate-border:after, .animate-border:before{
+    content: '';
+    /*border: 3px solid #b8b9be;*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    animation:animate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    z-index: 0;
+}
+.animate-border:after{
+    width: 40%;
+    height: 40%;
+    /*background: #1f2937;*/
+    background: var(--secondary);;
+}
+.animate-border:before{
+    width: 70%;
+    height: 70%;
+    background: var(--primary);;
+}
+@keyframes animate {
+    from {width: 100%; height: 100%}
+    to {width: 10%; height: 10%}
+}
+
+
 
 .plus-icon {
     opacity: 1;

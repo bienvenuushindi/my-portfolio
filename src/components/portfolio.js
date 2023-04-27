@@ -15,7 +15,7 @@ const Portfolio = () => {
                         <ul className="flex flex-wrap gap-1 text-tertiary items-center justify-center">
                             {item.techStack.map(item => <li key={item} style={{padding: '2px', fontSize: '12px'}} className="rounded  bg-black shadow uppercase font-bold">{item}</li>)}
                         </ul>
-                        <ul className="flex flex-wrap gap-1 text-secondary">
+                        <ul className="flex flex-wrap gap-1 text-white">
                             <li><a href={item.live} target="_blank" rel="noreferrer noopener" className="py-1 px-3 font-bold rounded bg-tertiary">Live</a></li>
                             <li><a href={item.github} target="_blank" rel="noreferrer noopener" className="py-1 px-3 font-bold rounded bg-tertiary">Github</a></li>
                         </ul>

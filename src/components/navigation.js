@@ -12,7 +12,7 @@ const Navigation = () => {
     };
 
     return (
-        <div className="text-primary bg-secondary">
+        <div >
             <div
                 className="fixed top-2 right-2 z-20 flex items-center justify-end w-fit p-3 border rounded shadow-lg bg-secondary xl:hidden ">
                 <div aria-label="toggler" className="flex items-center justify-center text-indigo-300">
@@ -35,9 +35,12 @@ const Navigation = () => {
             </div>
             <div id="Main"
                  className={`${show ? 'translate-x-0' : '-translate-x-full'} xl:translate-x-0 transform ease-in-out xl:ease-linear transition duration-500 side__bar`}>
-                <div className="h-screen flex flex-col w-full items-center bg-secondary">
-                    <div className=" lg:h-80 w-full grid justify-center items-center">
-                        <img src={Image} className="object-contain flex-none h-60 w-60  rounded-full  border-primary border-4 border-y-secondary" alt="Ushindi" />
+                <div className="h-screen flex flex-col w-full items-center ">
+                    <div className=" lg:h-80 w-full grid justify-center items-center ">
+                        <div className="rounded border-primary border-2  border animate-border">
+                            <img src={Image} className="object-contain flex-none z-10 relative h-60 w-60 " alt="Ushindi" />
+                        </div>
+
                     </div>
                     <nav className="flex-grow">
                         <ul className="bg-secondary h-full text-primary text-center flex flex-col justify-around navigation">
