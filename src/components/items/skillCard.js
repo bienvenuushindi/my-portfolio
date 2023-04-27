@@ -1,5 +1,4 @@
-const SkillCard = (props) => {
-    const {title, items, name} = props
+const SkillCard = ({title, items, name}) => {
     const list = items.map((item, index) => <li key={`${name}-item-${index}`} className="flex items-baseline">
         <div className="wrapper mr-1">
             <svg className="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">

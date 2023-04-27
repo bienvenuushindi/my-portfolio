@@ -1,14 +1,15 @@
 import {MdLocationPin} from "react-icons/md";
 import {AiFillStar} from "react-icons/ai";
 
-const TestimonialCard = (props) => {
-    const {item} = props
-    function limitCharacters(str, length){
-      if( str.length > length ) return `${str.substring(0, length)} ...`
-      return  str
+const TestimonialCard = ({item}) => {
+    function limitCharacters(str, length) {
+        if (str.length > length) return `${str.substring(0, length)} ...`
+        return str
     }
+
     return (
-        <div className=" p-1 max-h-fit text-white rounded shadow shadow-2xl my-14 shadow-gray-light custom-shadow bg-secondary ">
+        <div
+            className=" p-1 max-h-fit text-white rounded shadow shadow-2xl my-14 shadow-gray-light custom-shadow bg-secondary ">
             <div className="flex flex-col">
                 <div className="image grid items-start lg:mx-4">
                     <img src={item.image} alt={item.name} className="rounded testimonial-image"/>
@@ -19,10 +20,11 @@ const TestimonialCard = (props) => {
                         <div className="flex gap-2">
                             <div className="font-bold text-tertiary"><small>{item.position}</small></div>
                             <div className="flex items-baseline"><span
-                                className="text-tertiary "><MdLocationPin className="bounce"/></span>{item.location}</div>
+                                className="text-tertiary "><MdLocationPin className="bounce"/></span>{item.location}
+                            </div>
                         </div>
                     </div>
-                    <div className="text-white">{limitCharacters(item.comment,600)}</div>
+                    <div className="text-white">{limitCharacters(item.comment, 600)}</div>
                 </div>
             </div>
             <div className="flex justify-between items-baseline mt-1">

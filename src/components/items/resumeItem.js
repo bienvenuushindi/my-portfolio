@@ -1,5 +1,4 @@
-const ResumeItem = (props) => {
-    const { item } = props
+const ResumeItem = ({item}) => {
     return (
         <div>
             <div className="year w-fit  lg:text-2xl">{item.position}</div>
