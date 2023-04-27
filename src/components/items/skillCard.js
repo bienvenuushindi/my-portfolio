@@ -12,7 +12,7 @@ const SkillCard = ({title, items, name}) => {
         <li className="border-b-dotted border-l-dotted">
             <div className="card flex ">
                 <div>
-                    <div className="lg:text-4xl text-2xl font-bold text-left text-primary">{title}</div>
+                    <div className="lg:text-4xl text-2xl font-bold text-left text-white">{title}</div>
                     <div className="py-2">
                         <ul className="grid grid-cols-2 items-start justify-start grid-flow-row gap-1  text-left">
                             {list}

@@ -16,7 +16,7 @@ const TestimonialCard = ({item}) => {
                 </div>
                 <div className="flex-1 px-2">
                     <div className="mb-1">
-                        <div className="text-primary text-2xl font-bold">{item.name}</div>
+                        <div className="text-white text-2xl font-bold">{item.name}</div>
                         <div className="flex gap-2">
                             <div className="font-bold text-tertiary"><small>{item.position}</small></div>
                             <div className="flex items-baseline"><span
