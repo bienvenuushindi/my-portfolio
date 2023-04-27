@@ -2,14 +2,8 @@ import Asim from './image/testimonial/asim-intro.png'
 import Ernest from './image/testimonial/ernest.jpeg'
 import Aleks from './image/testimonial/aleks.jpeg'
 import ApiDoc from './image/portfolio/api-docs.png'
-import Bookstore from './image/portfolio/bookstore.png'
 import BudgetApp from './image/portfolio/budgetApp.png'
-import GameOfThrone from './image/portfolio/gameofthrones-screen.png'
 import GoFreelancer from './image/portfolio/gofreelancers.png'
-import KinEat from './image/portfolio/kin-eat.png'
-import ReactTodo from './image/portfolio/react-todo.png'
-import RecipeApp from './image/portfolio/recipe-app.png'
-import SpaceHub from './image/portfolio/spacehub.png'
 import Threadify from './image/portfolio/threadify.png'
 import Sharinghan from './image/portfolio/sharinghan.gif'
 import SayNumber from './image/portfolio/saythenumber.png'
@@ -175,7 +169,7 @@ export const projects = [
         ],
         description: 'knowledge based system has been created to help code reviewers quickly search for specific code' +
             ' review guidelines and generate a ready to use comment for each requirement that is not followed ',
-        live: 'sharingan.up.railway.app/',
+        live: 'https://sharingan.up.railway.app/',
         github: 'https://github.com/bienvenuushindi/sharingan'
     },{
         screenshot: SayNumber,
