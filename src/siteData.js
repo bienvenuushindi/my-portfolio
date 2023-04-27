@@ -177,6 +177,15 @@ export const projects = [
             ' review guidelines and generate a ready to use comment for each requirement that is not followed ',
         live: 'sharingan.up.railway.app/',
         github: 'https://github.com/bienvenuushindi/sharingan'
+    },{
+        screenshot: SayNumber,
+        name: 'Say the number',
+        techStack: [
+            'html', 'css', 'typescript', 'tailwind'
+        ],
+        description: 'Takes a numeral (just digits without separators (e.g. 19093 instead of 19,093) and returns the standard way of reading a number, complete with punctuation.',
+        live: 'https://saythenumber.vercel.app/',
+        github: 'https://github.com/bienvenuushindi/HyperionDev/tree/main/sections/C'
     },
     {
         screenshot: GoFreelancer,
@@ -206,15 +215,6 @@ export const projects = [
         description: 'A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
         live: 'https://budgetapp.up.railway.app/',
         github: 'https://github.com/bienvenuushindi/budget-app'
-    }, {
-        screenshot: SayNumber,
-        name: 'Say the number',
-        techStack: [
-            'html', 'css', 'typescript', 'tailwind'
-        ],
-        description: 'Takes a numeral (just digits without separators (e.g. 19093 instead of 19,093) and returns the standard way of reading a number, complete with punctuation.',
-        live: 'https://saythenumber.vercel.app/',
-        github: 'https://github.com/bienvenuushindi/HyperionDev/tree/main/sections/C'
     }
 ]
 
