@@ -1,6 +1,6 @@
 // import Swiper core and required modules
 import {
-  Navigation, Pagination, Scrollbar, A11y,
+    Navigation, Pagination, EffectCoverflow,
 } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -16,22 +16,37 @@ import TestimonialCard from "./items/testimonialCard";
 function Slider({ testimonials }) {
   return (
     <Swiper
-          // install Swiper modules
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
-      spaceBetween={10}
-      navigation
-      pagination={{ clickable: true }}
-      scrollbar={{ draggable: false, hide: true }}
-      breakpoints={{
-        310: {
-          width: 310,
-          slidesPerView: 1,
-        },
-          768: {
-          width: 1100,
-          slidesPerView: 2,
-        },
-      }}
+        loop={true}
+        loopFillGroupWithBlank={true}
+        pagination={{
+            clickable: true,
+        }}
+        autoplay={{ delay: 10 }}
+        navigation={true}
+        modules={[EffectCoverflow, Pagination, Navigation]}
+        className="mySwiper"
+        effect={"coverflow"}
+        coverflowEffect={{
+            rotate: 0,
+            stretch: 50,
+            depth: 50,
+            modifier: 1,
+            slideShadows: false,
+        }}
+        breakpoints={{
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+            },
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 150,
+            },
+        }}
     >
       {testimonials.map((item) => (
         <SwiperSlide key={item.name}>
