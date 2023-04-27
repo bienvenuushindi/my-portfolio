@@ -156,7 +156,7 @@ a:hover, button:hover, .project-container:hover {
 }
 .animate-border:after, .animate-border:before{
     content: '';
-    /*border: 3px solid #b8b9be;*/
+    border: 4px solid rgba(184, 185, 190, 0.1);
     position: absolute;
     left: 50%;
     top: 50%;
@@ -164,20 +164,20 @@ a:hover, button:hover, .project-container:hover {
     animation:animate;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
-    animation-duration: 2s;
     animation-direction: alternate;
+    background: #1e2733;
     z-index: 0;
 }
 .animate-border:after{
     width: 40%;
     height: 40%;
-    /*background: #1f2937;*/
-    background: var(--secondary);;
+    animation-duration: 2s;
 }
 .animate-border:before{
     width: 70%;
     height: 70%;
-    background: var(--primary);;
+    animation-delay: 1s;
+    animation-duration: 2s;
 }
 @keyframes animate {
     from {width: 100%; height: 100%}
