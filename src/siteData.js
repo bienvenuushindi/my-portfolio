@@ -78,14 +78,14 @@ export const experience = [
         location: 'Remote',
         details: 'Develop and improve existing and new systems, including client-side and server-side development, while designing efficient and cost-effective systems export default skills',
     },
-    {
-        year: 'Jan 2021 - Present',
-        position: 'Manager',
-        company: ' Ets. Tuliya · Part-time',
-        location: 'Congo (DRC)',
-        details: '- Improved company relationships with clients\n' +
-            '- Provided clear direction to employees',
-    },
+    // {
+    //     year: 'Jan 2021 - Present',
+    //     position: 'Manager',
+    //     company: ' Ets. Tuliya · Part-time',
+    //     location: 'Congo (DRC)',
+    //     details: '- Improved company relationships with clients\n' +
+    //         '- Provided clear direction to employees',
+    // },
     {
         year: 'Mar 2019 - Jul 2019',
         position: 'Full-stack Developer',
