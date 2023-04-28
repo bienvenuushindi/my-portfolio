@@ -17,14 +17,14 @@ function Slider({ testimonials }) {
   return (
     <Swiper
         loop={true}
-        loopFillGroupWithBlank={true}
+        loopFillGroupWithBlank={false}
         pagination={{
             clickable: true,
         }}
         autoplay={{ delay: 10 }}
         navigation={true}
         modules={[EffectCoverflow, Pagination, Navigation]}
-        className="mySwiper"
+        className="mySwiper flex my-14"
         effect={"coverflow"}
         coverflowEffect={{
             rotate: 0,

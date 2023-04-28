@@ -117,8 +117,8 @@ export const testimonials = [
         comment: 'Besides being a thorough gentleman and a very helpful partner. Coding and collaborating with ' +
             'him is always a treat, watching him code and explain the details of how the applications operate and ' +
             'function is insightful and very useful. His approach to handling and solving algorithms and data structures' +
-            ' coding challenges is a great experience, it opens up your mind and helps with your critical thinking. To have' +
-            ' Ushindi in your organization as a Full Stack Developer will be of great value to the company. I strongly ' +
+            ' coding challenges is a great experience, it opens up your mind and helps with your critical thinking' +
+            '. I strongly ' +
             'recommend having this talented developer at your side for a win-win situation.',
         location: 'Pakistan',
         date: 'Dec 17, 2022',

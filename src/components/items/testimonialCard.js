@@ -9,7 +9,7 @@ const TestimonialCard = ({item}) => {
 
     return (
         <div
-            className=" p-1 max-h-fit text-white rounded shadow shadow-2xl my-14 shadow-gray-light custom-shadow bg-secondary ">
+            className="p-1  text-white rounded shadow shadow-2xl shadow-gray-light custom-shadow bg-secondary mb-6 ">
             <div className="flex flex-col">
                 <div className="image grid items-start lg:mx-4">
                     <img src={item.image} alt={item.name} className="rounded border border-tertiary border-2 testimonial-image"/>
