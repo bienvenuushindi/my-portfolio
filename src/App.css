@@ -1,5 +1,5 @@
 * {
-    font-family: Lato, serif;
+    font-family: Lato, 'Open Sans', sans-serif, serif;
     margin: 0;
     padding: 0;
 }
@@ -7,7 +7,7 @@
 :root {
     --primary: #111827;
     --secondary: #374151;
-    --tertiary: #f8b831;
+    --tertiary: rgba(248, 184, 49, 0.83);
     --swiper-navigation-color: var(--tertiary);
 }
 
@@ -151,39 +151,50 @@ a:hover, button:hover {
     top: 0;
     left: 0;
 }
-.animate-border{
+
+.animate-border {
     position: relative;
 }
-.animate-border:after, .animate-border:before{
+
+.animate-border:after, .animate-border:before {
     content: '';
     border: 4px solid rgba(184, 185, 190, 0.1);
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
-    animation:animate;
+    transform: translate(-50%, -50%);
+    animation: animate;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
     animation-direction: alternate;
     background: #1e2733;
     z-index: 0;
 }
-.animate-border:after{
+
+.animate-border:after {
     width: 40%;
     height: 40%;
     animation-duration: 2s;
-}
-.animate-border:before{
-    width: 70%;
-    height: 70%;
-    animation-delay: 1s;
-    animation-duration: 2s;
-}
-@keyframes animate {
-    from {width: 100%; height: 100%}
-    to {width: 10%; height: 10%}
+    border: 4px solid rgba(248, 184, 49, 0.29);
 }
 
+.animate-border:before {
+    width: 70%;
+    height: 70%;
+    animation-delay: 500ms;
+    animation-duration: 2s;
+}
+
+@keyframes animate {
+    from {
+        width: 100%;
+        height: 100%
+    }
+    to {
+        width: 10%;
+        height: 10%
+    }
+}
 
 
 .plus-icon {
@@ -257,14 +268,14 @@ a:hover, button:hover {
     }
 }
 
-.reveal{
+.reveal {
     position: relative;
     transform: translateY(150px);
     opacity: 0;
     transition: 1s all ease;
 }
 
-.reveal.active{
+.reveal.active {
     transform: translateY(0);
     opacity: 1;
 }

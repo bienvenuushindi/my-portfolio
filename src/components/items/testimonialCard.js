@@ -12,7 +12,7 @@ const TestimonialCard = ({item}) => {
             className=" p-1 max-h-fit text-white rounded shadow shadow-2xl my-14 shadow-gray-light custom-shadow bg-secondary ">
             <div className="flex flex-col">
                 <div className="image grid items-start lg:mx-4">
-                    <img src={item.image} alt={item.name} className="rounded testimonial-image"/>
+                    <img src={item.image} alt={item.name} className="rounded border border-tertiary border-2 testimonial-image"/>
                 </div>
                 <div className="flex-1 px-2">
                     <div className="mb-1">
