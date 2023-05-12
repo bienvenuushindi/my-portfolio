@@ -15,7 +15,7 @@ const skills = {
     },
     back: {
         title: 'Back-end',
-        list: ['Ruby', 'Rails', 'PHP', 'Laravel', 'Nodejs', 'Express', 'MySQL', 'MongoDB', 'Postgresql'],
+        list: ['Ruby', 'Rails', 'Laravel', 'Nodejs', 'Express', 'MySQL', 'MongoDB', 'Postgresql'],
     },
     tools: {
         title: 'Tools & Methods',
@@ -158,7 +158,7 @@ export const projects = [
         techStack: [
             'html', 'css', 'typescript', 'javascript', 'tailwind', 'react'
         ],
-        description: 'Make twitter threads creation easier',
+        description: 'Paste your text and It will generate a twitter thread for you and allow you to customize the numbering style',
         live: 'https://extendtweet.vercel.app/',
         github: 'https://github.com/bienvenuushindi/threadify'
     }, {

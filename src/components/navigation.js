@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import '../index.css';
 import Image from "../image/usb-transparent.png";
 import SocialMedia from "./socialMedia";
+import Download from "./floatingList";
 
 
 const Navigation = () => {
@@ -45,6 +46,7 @@ const Navigation = () => {
                     <nav className="flex-grow">
                         <ul className="bg-secondary h-full text-primary text-center flex flex-col justify-around navigation">
                             {['about', 'projects','testimonials','resume', 'contact'].map(item => <li key={item} onClick={()=>toggleMenu()} className="font-bold text-2xl  flex  justify-center" ><a href={`#${item}`} className="capitalize">{item}</a></li>)}
+                            <li>   <Download name="Download CV"/></li>
                         </ul>
                     </nav>
 
