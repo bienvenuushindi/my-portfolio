@@ -58,15 +58,25 @@ export const education = [
 ]
 export const experience = [
     {
-        year: 'Oct 2022 - Present',
+        year: 'Sept 2023 – Present',
+        position: 'Software Engineer',
+        company: 'JUUBIX',
+        location: 'Remote',
+        details: '- Involved in designing and implementing a matching algorithm that matches prospective parties based on\n' +
+            ' common data points for a custom web platform\n' +
+            '- Collaborated with UX/UI designers to transform wireframes and mockups into fully functional software\n' +
+            'solutions, ensuring a seamless user experience and adherence to design principles.',
+    },
+    {
+        year: 'Oct 2022 - Dec 2023',
         position: 'Code Reviewer',
-        company: 'Microverse · Part-time',
+        company: 'Microverse',
         location: 'Remote',
         details: '- Ensuring the quality of source code and conducting code and UI reviews\n' +
             '- Provide quality and timely feedback to students on their technical projects, so that they can become better software developers.',
     },
     {
-        year: 'Jul 2020 - Present ',
+        year: 'Jul 2020 - April 2022 ',
         position: 'Full-stack Developer',
         company: 'Freelance',
         location: 'Remote',

@@ -6,12 +6,12 @@ const Portfolio = () => {
         <section id="projects" className="flex-col">
             <Title title="My Latest Projects"/>
             <div
-                className="revea grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 justify-center gap-6  py-5 my-10 rounded-lg">
+                className="reveal grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-center gap-6  py-5 my-10 ">
                 {projects.map(item => <div key={item.name}
                                            className="bg-secondary flex items-center  flex-col md:flex-row shadow-lg   project-container">
-                        <img src={item.screenshot} alt={item.name} className="h-72 w-full"/>
+                        {/*<img src={item.screenshot} alt={item.name} className="h-72 w-full"/>*/}
                         <div
-                            className=" w-full text-center text-white h-full flex flex-col items-center gap-1  sm:gap-2 justify-around px-1 project-element">
+                            className=" w-full text-center text-white h-full flex flex-col items-center gap-1 p-3 rounded  sm:gap-2 justify-around px-1 project-element">
                             <h3 className="text-white font-extrabold text-2xl my-1">{item.name}</h3>
                             <p className=" ">{item.description}</p>
                             <ul className="flex flex-wrap gap-1 text-tertiary items-center justify-center">
