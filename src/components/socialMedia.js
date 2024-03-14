@@ -1,10 +1,11 @@
 import {accounts} from "../siteData";
-import {FaGithub, FaLinkedin, FaMedium, FaTwitter} from "react-icons/fa";
+import {FaGithub, FaLinkedin, FaMedium} from "react-icons/fa";
 import {GrMail} from "react-icons/gr";
+import {XTwitter} from "./icons/x-twitter";
 
 function SocialMedia({customClasses = '', showIconText=false}) {
     const icons = {
-        twitter: <FaTwitter/>,
+        twitter: <XTwitter/>,
         linkedin: <FaLinkedin/>,
         medium: <FaMedium/>,
         github: <FaGithub/>,
