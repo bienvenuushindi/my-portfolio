@@ -18,7 +18,7 @@ const About = () => {
                             <h5 className="text-tertiary font-extrabold bg-secondary w-fit p-1 rounded">Software developer / Full-stack developer</h5>
                         </div>
                         <div className="lg:text-3xl text-white">
-                            <p> I'm a Full-stack web developer with  3+ years of experience. I can help you build a product , feature or website.
+                            <p> I'm a Full-stack web developer with  4+ years of experience. I can help you build a product , feature or website.
                                 Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
                             </p>
                         </div>
