@@ -20,7 +20,11 @@ const skills = {
     },
     tools: {
         title: 'Tools & Methods',
-        list: ['Git', 'Github', 'RSpec', 'TDD', 'Integration Test', 'Unit Test', 'Mobile Development', 'Responsive Development', 'RESTful API Design', 'Web Hosting '],
+        list: ['Git', 'Github', 'RSpec', 'TDD', 'Integration Test', 'Unit Test', 'Mobile Development', 'Responsive Development', 'RESTful API Design', 'Web Hosting'],
+    },
+    ai: {
+        title: 'AI & Machine Learning',
+        list: ['OpenAi API', 'Machine Learning', 'Natural Language Processing (NLP)', 'Cloud AI'],
     },
     professional: {
         title: 'Professional',
