@@ -18,8 +18,8 @@ const About = () => {
                             <h5 className="text-tertiary font-extrabold bg-secondary w-fit p-1 rounded">Software developer / Full-stack developer</h5>
                         </div>
                         <div className="lg:text-3xl text-white">
-                            <p> I'm a Full-stack web developer with  4+ years of experience. I can help you build a product , feature or website.
-                                Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
+                            <p>
+                                I am a full-stack web developer with 6 years of experience creating high-performance web solutions across various industries, including fintech, logistics, education, and healthcare. Passionate about AI, machine learning, and cloud technologies, I thrive on designing innovative and scalable applications using modern tech stacks. Always seeking new challenges, I aim to combine performance, accessibility, and artificial intelligence to enhance user experiences. Take a look at some of my work and experience! If you're interested in collaborating on a project, feel free to reach out.
                             </p>
                         </div>
                     </div>
